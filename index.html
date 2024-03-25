@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #343a40;
+      color: white;
+      background-image: url(black\ background\ 2.jpg);
+    }
+    .navbar {
+      background-color: #6c757d;
+    }
+    .navbar-brand {
+      color: white;
+      font-weight: bold;
+    }
+    .navbar-nav .nav-link {
+      color: gray;
+    }
+    .custom-header {
+      background-image:url(purple.jpg);
+      padding: 100px 0;
+      text-align: center;
+    }
+    .custom-header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      animation: changeColor 4s infinite ;
+    }
+
+    .custom-header h6 {
+      font-size: 1rem;
+      font-weight: bold;
+      animation: changeColor 4s infinite ;
+    }
+    .custom-header p {
+      font-size: 1.5rem;
+    }
+    .portfolio-item {
+      margin-bottom: 30px;
+    }
+    .portfolio-item img {
+      width: 350px;
+      height: 200px;
+      border-radius: 10px;
+    }
+    .div h6{
+      color: red;
+    }
+    
+    .footer {
+      background-color: #6c757d;
+      color: #ffffff;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+
+    @keyframes changeColor {
+      0% { color: #fff; }
+      33.33%{color:rgb(0,200, 0)}
+      66.66%{color:yellow}
+      100%{color:#fff;}
+    }
+
+    .skills-box {
+    
+    border: 2px solid gray;
+    border-radius: 35%; 
+    padding: 25px; 
+    margin-bottom: 20px; 
+    }
+  .port-box {
+    border: 2px solid rgb(84, 62, 110); /* Add a border */
+    border-radius: 25px; /* Add some border radius for rounded corners */
+    padding: 10px; /* Add some padding inside the box */
+    margin-bottom: 20px; /* Add some space between each skill box */
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Aditya Shinde</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#portfolio" >Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="custom-header">
+    <div class="container">
+      <h1>Welcome!</h1>
+      <h6>This is my portfolio website showcasing the projects I've worked on.</h6>
+    </div>
+  </header>
+  <div id="about" class="container">
+    <br>
+    <br>
+    <br>
+    <h2>About Me</h2>
+    <br>
+    <div class="row">
+        <div class="col-lg-6 col-md-4 col-sm-6">
+            <img class="img-fluid" src="IMG_20220823_142839_532.jpg" alt="Aditya" width="350" height="200">
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-6">
+            <p>I am Aditya Mukund Shinde, currently in my third year of Electronics and Telecommunication Engineering at PCCOE. I am a web development enthusiast who loves to learn more every single day. Qualities that make me stand out are hustle, loyalty, and respect.</p>
+            <br>
+            <h4>Education</h4>
+            <ul>
+                <li>Pimpri Chinchwad College Of Engineering - 2021-2025</li>
+                <li>KBP College Pandharpur - 2018-2020</li>
+                <li>DHK Prashala Pandharpur - 2012-2018</li>
+            </ul>
+            <br>
+            <h4>Interests</h4>
+            <ul>
+                <li>Web development</li>
+                <li>Trending programming languages</li>
+            </ul>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <h4>Skills</h4>
+        <br>
+        <br>
+            <div class="row">
+            
+                <div class="col-lg-4">
+                  <div class="container">   
+                    <div class="skills-box">
+                        <li>Web development </li>
+                        <br>
+                          <ul> I can design basic webpages using HTML, CSS, and Bootstrap efficiently.</ul>
+                    </div>     
+                  </div>       
+                </div>  
+                
+                <div class="col-lg-4">   
+                    <div class="container">
+                      <div class="skills-box"> 
+                        <li>Programming languages </li>
+                        <br>
+                          <ul>I can efficiently work on programming languages like C, C++, Python, Java and OOP concepts.</ul>
+                      </div>    
+                    </div>
+                 </div>
+
+                  
+                <div class="col-lg-4">     
+                    <div class="container" >
+                      <div class="skills-box">
+                        <li>Communication </li>
+                        <br>
+                          <ul>I can communicate with people as I have a strong hand on languages English, Marathi, and Hindi.</ul>
+                      </div>   
+                    </div> 
+                </div>
+             
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+  <div id="portfolio" class="container">
+    <br>
+    <br>
+    <br>
+    <h2>Portfolio</h2>
+    <br>
+    <div class="row">
+        <div class="col-lg-6 col-md-4 col-sm-6 portfolio-item">
+          <div class="container" >
+            <div class="port-box">
+            <h4><a href="https://www.electronicshub.org/density-based-traffic-signal-system-using-microcontroller/" target="_blank">Density Controlled Traffic Light Signal</a></h4>
+            <br>
+            <img class="img-fluid" src="Density controlled traffic light signal2.jpg" alt="Density Based Traffic Light Signal">
+            <br>
+            <br>
+            <p>In this project, I was a software team member. Our aim was to create a traffic light signal that adjusts duration based on traffic density with respect to every lane .</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-6 portfolio-item">
+          <div class="container" >
+            <div class="port-box">
+            <h4><a href="https://svskits.wordpress.com/2021/01/01/alcohol-detection-system-with-engine-locking-using-esp32-and-telegram-app-iot-2/" target="_blank">Automatic Engine Locking System</a></h4>
+            <br>
+            
+            <img class="img-fluid" src="automatic engine locking system2.jpg" alt="Automatic Engine Locking System">
+            <br>
+            <br>
+            <p>In this project, I worked on both software and hardware to develop a system that locks the engine when alcohol is detected in the driver, reducing accidents caused by drunk driving.</p>
+            </div>
+          </div>   
+          
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-6  portfolio-item">
+          <div class="container" >
+            <div class="port-box">
+            <h4><a href="https://www.engineersgarage.com/gesture-based-home-automation-system/" target="_blank">Gesture Recognition System for Home Automation</a></h4>
+            <br>
+            <img class="img-fluid" src="gesture controlled home automation2.jpg" alt="Gesture Recognition System for Home Automation">
+            <br>
+            <br>
+            <p>In this project, I developed a system to control electronic devices which can be accessed through various gestures, working on both software and hardware components.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-6  portfolio-item">
+          <div class="container" >
+            <div class="port-box">
+          <h4><a href="https://growbylittle.com/2023/06/07/ipl-business-model/" target="_blank">Business Model Of IPL</a></h4>
+          <br>
+        
+          <img class="img-fluid" src="Indian_Premier_League_Official_Logo.svg.png" alt="Reseach paper on IPL">
+          <br>
+          <br>
+          <p>In this projecgt , I wrote a research paper on the Indian Premier League in 2022-23 in which I covered whole money structure of IPL and how its become such a big hit across globe</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+  <div id="contact" class="container">
+    <br>
+    <h2>Contact</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control"id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="2" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+      <div id="mail" class="container">OR Mail me on Shindeadi716@gmail.com</div>
+  </div>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <span>&copy; 2024 My Portfolio</span>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+  
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+  
+
+</body>
+</html>
